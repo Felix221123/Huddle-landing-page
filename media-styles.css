@@ -1,0 +1,412 @@
+@media only screen and (max-width:420px){
+    body{
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: 100% 100%;
+        background-repeat:no repeat;
+        
+    }
+    .desktop-phone-mockups{
+        object-fit: cover;
+        max-width:30rem;
+    }
+    .desktop-phone-email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-paragraph-desktop-phone-email-image{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        row-gap: 3em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-paragraph-claim h1{
+        font-size: 2.4em;
+    }
+    .paragraph-under-heading{
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin: 0.8em 0.2em;
+
+    }
+    button.free-claim-starter-button{
+        padding: 1.4em 6em;
+        font-size: 1em;
+    }
+    
+    .growing-together-image{
+        width: 25rem;
+        height: 20rem;
+    }
+    .three-card-grid-layout-inside-main-content{
+        margin-top: 5em;
+        margin-bottom:6em ;
+        row-gap: 3em;
+    }
+    .card-layout{
+        width: 80%;
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap:2em;
+        padding: 2rem 1rem 2rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .collaborators-looking , .collaborators-looking-second{
+        display: flex;
+        justify-content: center;
+    }
+    .heading-for-card-paragraph-underneath .heading-for-cards{
+        font-size: 2em;
+        text-align: center;
+        margin: 0.3em auto;
+    }
+    .heading-for-card-paragraph-underneath .paragraph-underneath-heading-for-card{
+        font-size: 1.4em;
+        text-align: center;
+        margin: 0.8em 0.7em 1.5em 0.7em;
+        line-height: 1.4em;
+    }
+    .floating-claim-compensation-section{
+        width: 92%;
+        margin: 0rem auto;
+    }
+    h5{
+        font-size: 1.6em;
+    }
+    button.floating-claim-button{
+        padding: 1.3rem 7rem;
+    }
+    footer{
+        padding: 10em 2em 5em 2em ;
+    }
+    .company-name-address-contact-career-social-media-icons{
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        column-gap: 0em;
+        
+    }
+    .footers-heading{
+        margin-bottom: 1.5em;
+    }
+    .my-list-of-contacts{
+        /* background-color: red; */
+        margin-bottom: 2em;
+        margin-right: 1em;
+    }
+    .icon-images{
+        width: min-content;
+        height: 1.5em;
+        margin-right: 1.5em;
+        
+    }
+    
+    ul li{
+        font-size :1.7em ;
+    }
+    .social-media-icons-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        column-gap: 3em;
+    }
+    .social-media-icons-flex div{
+        transform: scale(1.6);
+    }
+    .about-copyright-issues{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2.5em;
+    }
+}
+
+@media (min-width:420px) and (max-width:680px){
+    body{
+        width: min-content;
+        height: min-content;
+    }
+    
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: 100% 100%;
+        background-repeat:no repeat;
+        
+    }
+    .desktop-phone-mockups{
+        object-fit: cover;
+        max-width:35rem;
+    }
+    .desktop-phone-email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem auto;
+        text-align: center;
+    }
+    .header-paragraph-desktop-phone-email-image{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        row-gap: 3em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-paragraph-claim h1{
+        font-size: 2.3em;
+    }
+    .paragraph-under-heading{
+        font-size: 1.4em;
+        line-height: 1.4em;
+
+    }
+    button.free-claim-starter-button{
+        padding: 1.4em 8em;
+        font-size: 1em;
+    }
+    .desktop-phone-email{
+        text-align: center;
+        width: 90%;
+    }
+    .growing-together-image{
+        width: 25rem;
+        height: 20rem;
+    }
+    .three-card-grid-layout-inside-main-content{
+        margin-top: 5em;
+        margin-bottom:6em ;
+        row-gap: 3em;
+    }
+    .card-layout{
+        width: 80%;
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap:2em;
+        padding: 2rem 1rem 2rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .collaborators-looking , .collaborators-looking-second{
+        display: flex;
+        justify-content: center;
+    }
+    .heading-for-card-paragraph-underneath .heading-for-cards{
+        font-size: 2em;
+        text-align: center;
+        margin: 0.3em auto;
+    }
+    .heading-for-card-paragraph-underneath .paragraph-underneath-heading-for-card{
+        font-size: 1.6em;
+        text-align: center;
+        margin: 0.8em 0.75em 1.5em 0.75em;
+        line-height: 1.4em;
+    }
+    .floating-claim-compensation-section{
+        width: 92%;
+        margin: 0rem auto;
+    }
+    button.floating-claim-button{
+        padding: 1.3rem 7rem;
+    }
+    footer{
+        padding: 10em 2em 5em 2em ;
+    }
+    .company-name-address-contact-career-social-media-icons{
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        column-gap: 0em;
+        
+    }
+    .footers-heading{
+        margin-bottom: 1.5em;
+    }
+    .my-list-of-contacts{
+        /* background-color: red; */
+        margin-bottom: 2em;
+        margin-right: 1em;
+    }
+    .icon-images{
+        width: min-content;
+        height: 1.5em;
+        margin-right: 1.5em;
+        
+    }
+    
+    ul li{
+        font-size :1.7em ;
+    }
+    .social-media-icons-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        column-gap: 3em;
+    }
+    .social-media-icons-flex div{
+        transform: scale(1.6);
+    }
+    .about-copyright-issues{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2.5em;
+    }
+    
+}
+
+@media (min-width:680px) and (max-width:1350px){
+    body{
+        width: 100vw;
+        height: max-content;
+        
+    }
+    
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: 100% 100%;
+        background-repeat:no repeat;
+        
+    }
+    .desktop-phone-mockups{
+        object-fit: cover;
+        max-width:28em;
+    }
+    .desktop-phone-email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem auto;
+        text-align: center;
+    }
+    .header-paragraph-desktop-phone-email-image{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        row-gap: 3em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-paragraph-claim h1{
+        font-size: 2.3em;
+    }
+    .paragraph-under-heading{
+        font-size: 1.4em;
+        line-height: 1.4em;
+
+    }
+    button.free-claim-starter-button{
+        padding: 1.4em 8em;
+        font-size: 1em;
+    }
+    .desktop-phone-email{
+        text-align: center;
+        width: 90%;
+    }
+    .growing-together-image{
+        width: 25rem;
+        height: 20rem;
+    }
+    .three-card-grid-layout-inside-main-content{
+        margin-top: 5em;
+        margin-bottom:6em ;
+        row-gap: 3em;
+    }
+    .card-layout{
+        width: 80%;
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap:2em;
+        padding: 2rem 1rem 2rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .collaborators-looking , .collaborators-looking-second{
+        display: flex;
+        justify-content: center;
+    }
+    .heading-for-card-paragraph-underneath .heading-for-cards{
+        font-size: 2em;
+        text-align: center;
+        margin: 0.3em auto;
+    }
+    .heading-for-card-paragraph-underneath .paragraph-underneath-heading-for-card{
+        font-size: 1.6em;
+        text-align: center;
+        margin: 0.8em 0.75em 1.5em 0.75em;
+        line-height: 1.4em;
+    }
+    .floating-claim-compensation-section{
+        width: 92%;
+        margin: 0rem auto;
+    }
+    button.floating-claim-button{
+        padding: 1.3rem 7rem;
+    }
+    footer{
+        padding: 10em 2em 5em 2em ;
+    }
+    .company-name-address-contact-career-social-media-icons{
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        column-gap: 0em;
+        
+    }
+    .footers-heading{
+        margin-bottom: 1.5em;
+    }
+    .my-list-of-contacts{
+        /* background-color: red; */
+        margin-bottom: 2em;
+    }
+    .icon-images{
+        width: max-content;
+        height: 1.5em;
+        margin-right: 0em;
+        
+    }
+    
+    ul li{
+        font-size :1.7em ;
+    }
+    .social-media-icons-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        column-gap: 3em;
+    }
+    .social-media-icons-flex div{
+        transform: scale(1.6);
+    }
+    .about-copyright-issues{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2.5em;
+    }
+    
+}
