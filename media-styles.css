@@ -274,12 +274,6 @@
 }
 
 @media (min-width:680px) and (max-width:1350px){
-    body{
-        width: 100vw;
-        height: max-content;
-        
-    }
-    
     header{
         background-image: url(images/bg-hero-mobile.svg);
         background-size: 100% 100%;
